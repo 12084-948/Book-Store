@@ -1,0 +1,160 @@
+#my_modal_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+}
+
+.modal-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.modall-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hell{
+    margin-top: -6rem;
+    margin-bottom: 2.5rem;
+} 
+
+.hell a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin-top: -4rem;
+    margin-left: 20rem;
+}
+
+.brs{
+    color: red;
+    margin: 1rem;
+}
+
+.first,
+.second {
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+.helloText {
+    margin-bottom: 4rem;
+    margin-top: 0.4rem;
+    font-size: 1.8rem;
+}
+
+.firstInput,
+.secondInput {
+    font-size: 14px;
+    width: 80%;
+    padding: 5px 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+.modal-box input {
+    outline: none;
+    margin-top: 10px;
+}
+
+
+/* .modal-action form button {
+    background-color: #D37676;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    font-size: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+
+/* .modal-action form a {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+} */
+
+.loginBottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.loginBottom button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #D37676;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    width: 130px;
+}
+
+.loginBottom a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.btnn{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin-top: -4em;
+    margin-left: 20rem;
+}
+
+.firstt{
+    font-size: 20px;
+}
+
+.firsttInput{
+    font-size: 14px;
+    width: 80%;
+    padding: 5px 15px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.btnDivv {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnDivv button {
+    background-color: white;
+    color: blue;
+    height: 0;
+    width: 100%;
+    font-size: 1rem;
+    text-decoration: underline;
+    margin-top: -1rem;
+}

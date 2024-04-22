@@ -1,0 +1,14 @@
+.freeBook{
+    width: 85%;
+    margin: auto;
+}
+
+.freeBook h1{
+    font: bold;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.freeBook p{
+    margin-bottom: 20px;
+}

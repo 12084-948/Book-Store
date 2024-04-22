@@ -1,0 +1,44 @@
+.course {
+    width: 85%;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.course h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.course h1 span {
+    color: palevioletred;
+}
+
+.course p {
+    margin-top: 1.6rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.course button {
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    background-color: rgb(214, 63, 88);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;    
+   margin-bottom: 2rem;
+   margin-left: 47%;
+}
+
+.course button:hover{
+    background-color:  rgb(179, 50, 72);
+    cursor: pointer;
+}
+
+.cardsCourse{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 7rem 0;
+}

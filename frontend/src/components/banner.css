@@ -1,0 +1,56 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+}
+
+.banDiv {
+    width: 50%;
+}
+
+.space {
+    margin-top: 3rem;
+}
+
+.space span {
+    color: palevioletred;
+}
+
+.space h1 {
+    font-size: 36px;
+    margin-bottom: 3rem;
+}
+
+.space p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.banDiv button {
+    margin-top: 3rem;
+    padding: 16px 24px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(214, 63, 88);
+}
+
+label input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+}
+
+
+.banDiv img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 2rem;
+}

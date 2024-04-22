@@ -1,0 +1,76 @@
+.navItems {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.navItems h1 {
+    font-size: 27px;
+}
+
+.navMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    font-size: 19px;
+}
+
+
+.navMenu a {
+    display: flex;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.navMenu li:hover{
+    scale: 1.4;
+}
+
+.navItems i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navItems i:hover {
+    transform: scale(1.4);
+    transition: all 0.2s ease-in-out;
+}
+
+.navItems button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #D37676;
+    color: #fff;
+    cursor: pointer;    
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    width: 130px;
+}
+
+.navItems button:hover{
+    background-color: #6D2932;
+    transition: all 0.3s ease-in-out;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.inputNav{
+    width: 15%;
+    height: 33%;
+    padding: 10px;
+    border-radius: 10px;
+}
